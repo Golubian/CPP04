@@ -1,10 +1,9 @@
 NAME = polymorphisme
 CC = c++
 FLAGS = -Wall -Werror -Wextra -std=c++98 -pedantic
-SRCS = Animal.cpp\
-Dog.cpp \
-Cat.cpp \
-main.cpp
+SRCS = Animals/Animal.cpp Animals/Dog.cpp Animals/Cat.cpp \
+WrongAnimals/WrongAnimal.cpp WrongAnimals/WrongCat.cpp \
+main.cpp \
 
 OBJS = $(SRCS:.cpp=.o)
 

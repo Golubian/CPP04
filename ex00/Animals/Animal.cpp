@@ -24,7 +24,7 @@ Animal& Animal::operator=(Animal &from)
 }
 
 
-void	Animal::makeSound(void)
+void	Animal::makeSound(void) const
 {
 	std::cout << "ERROR: ClassAnimal makeSound called" << std::endl;
 }
